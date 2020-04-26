@@ -3,6 +3,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "$TFCloud1"
+  name     = "TFCloud1"
   location = "eastus2"
 }
